@@ -133,6 +133,21 @@
     <option name="WHILE_BRACE_FORCE" value="3" />
     <option name="FOR_BRACE_FORCE" value="3" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+    <option name="MODIFIER_ORDER">
+      <list>
+        <option value="PUBLIC" />
+        <option value="PROTECTED" />
+        <option value="PRIVATE" />
+        <option value="STATIC" />
+        <option value="ABSTRACT" />
+        <option value="FINAL" />
+        <option value="TRANSIENT" />
+        <option value="VOLATILE" />
+        <option value="SYNCHRONIZED" />
+        <option value="NATIVE" />
+        <option value="STRICTFP" />
+      </list>
+    </option>
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
       <option name="CONTINUATION_INDENT_SIZE" value="8" />
