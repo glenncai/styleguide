@@ -243,25 +243,13 @@
       <property name="format" value="(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)"/>
       <message key="name.invalidPattern" value="Interface type name ''{0}'' must match pattern ''{1}''."/>
     </module>
-    <module name="NoFinalizer"/>
+    <module name="NoFinalizer"/>vs+
+
     <module name="GenericWhitespace">
       <message key="ws.followed" value="GenericWhitespace ''{0}'' is followed by whitespace."/>
       <message key="ws.preceded" value="GenericWhitespace ''{0}'' is preceded with whitespace."/>
       <message key="ws.illegalFollow" value="GenericWhitespace ''{0}'' should followed by whitespace."/>
       <message key="ws.notPreceded" value="GenericWhitespace ''{0}'' is not preceded with whitespace."/>
-    </module>
-    <module name="Indentation">
-      <property name="basicOffset" value="4"/>
-      <property name="braceAdjustment" value="4"/>
-      <property name="caseIndent" value="4"/>
-      <property name="throwsIndent" value="8"/>
-      <property name="lineWrappingIndentation" value="8"/>
-      <property name="arrayInitIndent" value="4"/>
-    </module>
-    <module name="SuppressionXpathSingleFilter">
-      <property name="checks" value="Indentation"/>
-      <property name="query" value="//SLIST[not(parent::CASE_GROUP)]/SLIST
-                                   | //SLIST[not(parent::CASE_GROUP)]/SLIST/RCURLY"/>
     </module>
     <module name="AbbreviationAsWordInName">
       <property name="ignoreFinal" value="false"/>
